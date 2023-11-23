@@ -4,7 +4,7 @@ import os
 import subprocess
 
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='')
 
 messages = [
 	{"role": "system", "content": "You are a Terminal Assistant and your job is to output commands according to my query. My system is garuda linux and the shell is fish. You just have to output the command and not anything else"}
