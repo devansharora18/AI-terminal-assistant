@@ -16,6 +16,8 @@ def main():
 		if query == "quit" or query == "exit":
 			break
 
+		query = query + "output commands only"
+			
 		command = getCommand(query)
 
 		x = input('y or n: ')
